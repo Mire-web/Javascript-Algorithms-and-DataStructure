@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 20px;
+}
+
+input{
+    padding: 2px;
+    padding-right: 5px;
+}
+
+button{
+    margin: 20px;
+}
+
+button:nth-child(2){
+    margin-right: 0;
+}
+
+table{
+    border: 1px solid black;
+    width: 90vw;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr{
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+td, th{
+    border: 1px solid black;
+}
